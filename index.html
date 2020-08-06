@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Mario Page</title>
+        <link rel="icon" href="imagens/favicon.jpg" />
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+                <a href="index.html" class="navbar-brand ml-5">
+                    <img src="imagens/logo2.png" width="125" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-principal" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collpase navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto mr-5">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"> &nbsp; &nbsp;SAIBA MAIS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"> &nbsp; &nbsp;SOBRE O CRIADOR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"> &nbsp; &nbsp;JOGUE AQUI</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section id="home" class="d-flex">
+            <div class="container align-self-center">
+                <div class="row">
+                    <div class="col-md-12 capa">
+                        <div id="carousel-mario" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <h1>Curiosidades Sobre o Super Mario</h1>
+                                    <a href="#" class="btn btn-lg btn-custom btn-branco">Clique Aqui</a>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <h1>Não Sabe Jogar?</h1>
+                                    <a href="#" class="btn btn-lg btn-custom btn-branco">Aprenda Aqui</a>
+                                </div>
+                            </div>
+                            <a href="#carousel-mario" class="carousel-control-prev" data-slide="prev"> <i class="fas fa-angle-left fa-3x"></i></a>
+                            <a href="#carousel-mario" class="carousel-control-next" data-slide="next"> <i class="fas fa-angle-right fa-3x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="caixa">
+            <div class="container">
+                <h1>O Grande Record</h1>
+                <h4>Brasileiro termina 'Super Mario World' em 45,78 segundos e recupera recorde mundial.</h4>
+                <p>
+                    Matheus Furtado, o 'Furious', havia perdido marca para americano no início de fevereiro. Brasileiro entrou para o Guinness Book em abril de 2017 com tempo de 1 minuto e 13 segundos. O mesmo, terminou o game "Super Mario
+                    World" (1990, Super Nintendo) em 45,78 segundos e recuperou o record e mundial na categoria "0 exit (credits warp)", que consiste em usar um "bug" para ir diretamente da primeira fase até os créditos finais do jogo.
+                </p>
+                <div class="row my-5">
+                    <div class="col-md-6">
+                        <img src="imagens/foto.jpg" class="img-fluid" style="width: 100%;" />
+                    </div>
+                    <div class="col-md-6">
+                        <img src="imagens/foto2.jpg" class="img-fluid" style="width: 100%;" />
+                    </div>
+                </div>
+                <h3>Faça parte da nossa comunidade</h3>
+                <h5>Fique por dentro das novidades sobre o mundo do Super Mario!</h5>
+                <p class="text-danger">Cadastre-se!</p>
+                <hr />
+
+                <form>
+                    <div class="form-group">
+                        <label for="usuario" class="h5">Nome de Usuário:</label>
+                        <input type="usuario" class="form-control" style="width: 400px;" id="usuario" placeholder="Usuário" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="h5">Endereço de email:</label>
+                        <input type="email" class="form-control" style="width: 400px;" id="email" aria-describedby="emailHelp" placeholder="Seu email" />
+                        <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="senha" class="h5">Senha:</label>
+                        <input type="password" class="form-control" style="width: 400px;" id="senha" placeholder="Senha" />
+                    </div>
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="opacity">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-12 col-md-3 text-center">
+                        <img src="imagens/logo2.png" width="80%" />
+                    </div>
+                    <div class="col-6 mt-3 col-md-2">
+                        <h3>Companhia</h3>
+                        <ul class="navbar-nav">
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="#">Pessoas</a></li>
+                            <li><a href="#">Novidades</a></li>
+                            <li><a href="#">Lorem ipsum</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 mt-3 col-md-2">
+                        <h3>Comunidade</h3>
+                        <ul class="navbar-nav">
+                            <li><a href="#">Lives</a></li>
+                            <li><a href="#">Players</a></li>
+                            <li><a href="#">Lorem ipsum</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 mt-3 col-md-2">
+                        <h3>Mais</h3>
+                        <ul class="navbar-nav">
+                            <li><a href="#">Ajuda</a></li>
+                            <li><a href="#">Presentes </a></li>
+                            <li><a href="#">Lorem ipsum</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 mt-3 col-md-3">
+                        <a href="">
+                            <i class="fab fa-facebook fa-2x" style="color: #000;"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-twitter-square fa-2x" style="color: #000;"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-instagram fa-2x" style="color: #000;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    </body>
+</html>

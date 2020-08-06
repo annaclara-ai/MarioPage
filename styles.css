@@ -1,0 +1,108 @@
+html,
+body,
+#home {
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Arial;
+}
+
+body {
+    background: url(imagens/fundomario.jpg);
+    background-position: center bottom;
+    background-attachment: fixed;
+    font-family: Arial;
+    min-width: 320px;
+}
+
+.opacity {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+nav.navbar-transparente {
+    padding: 10px 0px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+}
+
+.capa {
+    text-align: center;
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    text-transform: uppercase;
+    transition: 0.4s, 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-branco {
+    border: 2px solid white;
+}
+
+.btn-branco:hover {
+    background-color: white;
+    color: black;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 10%;
+}
+
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos {
+    background: white;
+}
+
+#servicos h1,
+h2,
+h3 {
+    color: #4682b4;
+}
+
+footer h3 {
+    color: #000;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: #000;
+    font-size: 0.9em;
+}
+
+footer .navbar-nav a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 800;
+    letter-spacing: -0.09em;
+    margin-bottom: 30px;
+    color: white;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
